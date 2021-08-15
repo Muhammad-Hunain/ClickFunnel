@@ -196,6 +196,7 @@ a{
 
 .banner-bottom{
     margin-top: -90px;
+    border-radius: 10px;
 }
 .banner-right-text-content{
     background-color: var(--white);

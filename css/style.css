@@ -189,19 +189,18 @@ a{
 
 
 
-
-
 /* banner bottom section */
 
 
 .banner-bottom{
     margin-top: -90px;
-    border-radius: 10px;
+    
 }
 .banner-right-text-content{
     background-color: var(--white);
     padding: 20px 10px;
     line-height: 23px;
+    border-radius: 2px;
 }
 .banner-right-text-content span{
     font-weight: 700;

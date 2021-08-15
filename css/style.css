@@ -442,6 +442,9 @@ float: left;
     width:90%;
     margin: 0 auto;
 }
+.information_arrow img{
+    width: 93%;
+}
 /* .information_arrow .mobile{
     text-align: center;
     width:90%;
@@ -791,7 +794,9 @@ color: White;
         display: block;
     }
     .Show-more{
-      margin: 0px  150px;
+      /* margin: 0px  150px; */
+      display: inline-block;
+      padding: 5px 38px;
     }
     .demo_instructor img{
         width: 60%;

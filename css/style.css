@@ -53,6 +53,7 @@ a{
 }
 .nav{
     padding: 10px 0;
+    align-items: center;
 }
 .site-logo{
     width: 45%;
@@ -67,7 +68,7 @@ a{
 .nav-links span{
     margin-left: 0px;
     font-size: 14px;
-    margin-top: 5px;
+    /* margin-top: 5px; */
     display: inline-block;
 }
 .member-login {
@@ -99,8 +100,11 @@ a{
     color: var(--white);
 }
 .main-banner{
-    background-color: #151F2A;
     color: var(--white);
+}
+.main-back{
+    background-color: #151F2A;
+
 }
 .banner-left h1{
     font-size: 72px;

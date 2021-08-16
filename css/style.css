@@ -952,13 +952,16 @@ container {
     width: 100%;
 }
 .heading_company h4{
-    font-size: 52px;
+    font-size: 35px;
 }
 .heading_company h1{
-    font-size: 52px;
+    font-size: 40px;
 }
 .trust-seal-1 {
     padding: 13px 0;
+}
+.what-fannel h1{
+    font-size: 45px;
 }
 
 .funnel-second-section h1 {

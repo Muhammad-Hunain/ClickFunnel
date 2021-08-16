@@ -214,7 +214,7 @@ a {
 #video-overlay,
 #video-overlay1 {
     position: absolute;
-    top: 0;
+    top:-70px;
     left: 0;
     display: flex;
     justify-content: center;
@@ -232,7 +232,7 @@ a {
 #video-overlay img,
 #video-overlay1 img {
     width: 25%;
-    margin-top: -44px;
+  
 }
 
 .banner-video video[poster='media/images/big-play-button.png'] {
@@ -401,12 +401,14 @@ a {
     font-size: 20px;
     font-weight: 600;
     margin-left: 10px;
+    transition: .5s;
 }
 .form-check:hover{
 background-color: #0d6efd;
 border-radius: 5px;
 padding: 8px 36px;
 color: var(--white);
+
 
 }
 

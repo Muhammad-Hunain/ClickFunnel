@@ -356,7 +356,10 @@ a {
     font-size: 22px;
     display: inline-block;
 }
+.what-fannel img{
+    margin-top: 40px;
 
+}
 
 
 /* funnel-second-section */
@@ -654,6 +657,7 @@ container {
     text-align: center;
     color: var(--darkblue);
     line-height: 0.1em;
+    margin-top: 13px;
 }
 
 .name_info h6 {
@@ -738,24 +742,26 @@ container {
 
 .trial_1 button {
     background-color: var(--skyblue);
-    padding: 20px 20px;
+    padding: 20px 54px;
     border-radius: 2px;
-    font-size: 20px;
+    font-size: 31px;
     font-weight: bold;
-    color: var(--white) !important;
     text-align: center;
+    color: var(--white) !important;
+    line-height: 1;
 }
-
 .trial {
     transition: .5s;
 }
 
 .trial span {
     color: var(--gray);
+
 }
 
 .trial_1 span {
     color: var(--gray);
+  font-size: 17px;
 }
 
 .trial:hover {
@@ -772,9 +778,10 @@ container {
     color: var(--gray);
 }
 
-.foot_trial {
+.foot_trial p {
     color: var(--white);
     text-align: center;
+    margin-top:-16px;
 }
 
 .instruc h4 {
@@ -792,6 +799,7 @@ container {
     border-radius: 1px;
     height: 80px;
     padding-top: 20px;
+    margin-top: 5px;
 
 }
 
@@ -997,7 +1005,7 @@ width:100%;
 
 }
 .banner-bottom {
-    margin-top: -70px;
+    margin-top: -46px;
 
 }
 .site-logo {

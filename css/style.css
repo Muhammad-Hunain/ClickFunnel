@@ -940,25 +940,60 @@ container {
     display: block;
     width: 100%;
 }
-/* .heading_company h4{
+.heading_company h4{
     font-size: 52px;
 }
 .heading_company h1{
     font-size: 52px;
-} */
+}
 .trust-seal-1 {
     padding: 13px 0;
 }
+
+.funnel-second-section h1 {
+    font-size: 25px;
 }
+
+
+#video-overlay img , #video-overlay1 img{
+    display: none;
+}
+#dynamic{
+    display: none;
+}
+#static{
+display: block;
+position: fixed;
+bottom: 0;
+background-color:var(--darkblue);
+width: 100%;
+}
+.static-container{
+width:100%;
+}
+
+.trial {
+  width: 100%;
+  transition: none;
+  margin-top: -2px;
+  padding: 30px 0;
+}
+.trial:hover {
+    transform: none;
+
+}
+.banner-bottom {
+    margin-top: -70px;
+
+}
+
+}
+
 
 
 
 @media(max-width: 576px) {
-    .container {
-        width: 100% !important;
-        /* margin: 0 auto !important; */
-    }
-
+   
     .Desktop {
         display: none;
     }
@@ -970,7 +1005,7 @@ container {
     .Show-more {
         /* margin: 0px  150px; */
         display: inline-block;
-        padding: 5px 38px;
+        padding: 5px 35px;
     }
 
     .demo_instructor img {
@@ -986,10 +1021,7 @@ container {
     .funnel-second-section h1 {
         font-size: 25px;
     }
-    .container{
-        width: 90%;
-        margin: 0 auto;
-    }
+ 
     .banner-left h3 {
         font-size: 25px;
         font-weight: 800;
@@ -1022,36 +1054,6 @@ container {
     .funnel-second-section h1 {
         font-size: 25px;
     }
-    #video-overlay img , #video-overlay1 img{
-        display: none;
-    }
-    #dynamic{
-        display: none;
-    }
-    #static{
-    display: block;
-    position: fixed;
-    bottom: 0;
-    background-color:var(--darkblue);
-    width: 100%;
-    }
-    .static-container{
-    width:100%;
-    }
-    
-    .trial {
-      width: 100%;
-      transition: none;
-      margin-top: -2px;
-      padding: 30px 0;
-    }
-    .trial:hover {
-        transform: none;
-    
-    }
-    .banner-bottom {
-        margin-top: -70px;
-    
-    }
+
 }
 

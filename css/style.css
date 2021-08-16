@@ -940,21 +940,14 @@ container {
     display: block;
     width: 100%;
 }
-.heading_company h4{
+/* .heading_company h4{
     font-size: 52px;
 }
 .heading_company h1{
     font-size: 52px;
-}
+} */
 .trust-seal-1 {
     padding: 13px 0;
-}
-.banner-left{
-    /* width: 100% !important; */
-
-}
-.banner-right{
-    /* width: 100% ; */
 }
 }
 
@@ -1029,7 +1022,7 @@ container {
     .funnel-second-section h1 {
         font-size: 25px;
     }
-    #video-overlay img{
+    #video-overlay img , #video-overlay1 img{
         display: none;
     }
     #dynamic{
@@ -1054,6 +1047,10 @@ container {
     }
     .trial:hover {
         transform: none;
+    
+    }
+    .banner-bottom {
+        margin-top: -70px;
     
     }
 }
